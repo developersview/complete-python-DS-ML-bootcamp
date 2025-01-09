@@ -9,3 +9,17 @@ This course is for Data Science, Machine Learning (ML), Deep Learning(DL) and Na
 4. conda deactivate
 4. pip install -r requirements.txt
 ```
+
+## Three ways to create an environmemt
+
+1. In cmd, type ```python -m venv myenv``` 
+    
+    Then, ```myenv\Script\activate```
+
+2. Type, ```pip install virtualenv```
+
+   Then type, ```virtualenv -p python3 virtual_env```
+
+   Then, ```virtual_env\Scripts\activate```
+
+3. Most common way, use Anaconda. Type ```conda create -p venv python=3.12```
