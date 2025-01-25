@@ -7,7 +7,7 @@ This course is for Data Science, Machine Learning (ML), Deep Learning(DL) and Na
 2. conda create -p venv python=3.12
 3. conda activate venv/
 4. conda deactivate
-4. pip install -r requirements.txt
+5. pip install -r requirements.txt
 ```
 
 ## Three ways to create an environmemt
