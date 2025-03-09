@@ -1,0 +1,5 @@
+The churn rate is very important in the telecommunications industry (wireless and cable service providers, 
+satellite television providers, internet providers, etc). 
+The churn rate in this use case provides clarity on the quality of the business, 
+shows customer satisfaction with the product or service, 
+and allows for comparison with competitors to gauge an acceptable level of churn. 
