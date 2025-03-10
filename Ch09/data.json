@@ -1,0 +1,74 @@
+{
+    "name": "Example Data",
+    "version": "1.0",
+    "data": [
+        {
+            "id": 1,
+            "type": "product",
+            "attributes": {
+                "title": "Widget A",
+                "price": 29.99,
+                "inStock": true,
+                "colors": [
+                    "red",
+                    "blue",
+                    "green"
+                ],
+                "dimensions": {
+                    "width": 10,
+                    "height": 5,
+                    "depth": 2
+                }
+            }
+        },
+        {
+            "id": 2,
+            "type": "user",
+            "attributes": {
+                "username": "john_doe",
+                "email": "john.doe@example.com",
+                "age": 30,
+                "isActive": true,
+                "address": {
+                    "street": "123 Main St",
+                    "city": "Anytown",
+                    "zip": "12345"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "type": "order",
+            "attributes": {
+                "orderId": "ORDER-1234",
+                "userId": 2,
+                "items": [
+                    {
+                        "productId": 1,
+                        "quantity": 2
+                    }
+                ],
+                "orderDate": "2023-10-27T10:00:00Z",
+                "status": "shipped"
+            }
+        },
+        {
+            "id": 4,
+            "type": "category",
+            "attributes": {
+                "categoryName": "Electronics",
+                "description": "Electronic devices and gadgets",
+                "parentCategory": null,
+                "subCategories": [
+                    "Smartphones",
+                    "Laptops",
+                    "Tablets"
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "generatedAt": "2023-10-27T12:00:00Z",
+        "recordCount": 4
+    }
+}
