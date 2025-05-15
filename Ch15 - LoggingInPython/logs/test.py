@@ -1,6 +1,6 @@
 from logger import setup_logger
 
-my_logger = setup_logger()
+my_logger = setup_logger('test_logger')
 print(my_logger)
 
 def add(a, b):

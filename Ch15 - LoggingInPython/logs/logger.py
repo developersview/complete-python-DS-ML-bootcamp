@@ -1,9 +1,10 @@
 import logging
 
-def setup_logger():
-    # Remove all handlers associated with the root logger
-    for handler in logging.root.handlers[:]:
-        logging.root.removeHandler(handler)
+def setup_logger(name):
+    # # Remove all handlers associated with the root logger
+    # for handler in logging.root.handlers[:]:
+    #     logging.root.removeHandler(handler)
+    # Create a custom logger
 
     logging.basicConfig(
         filename='test.log',
@@ -13,4 +14,4 @@ def setup_logger():
         datefmt='%Y-%m-%d %H:%M:%S'
     )
 
-    return logging.getLogger()
+    return logging.getLogger(name)
