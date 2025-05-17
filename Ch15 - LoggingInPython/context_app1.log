@@ -1,0 +1,5 @@
+2025-05-17 13:52:57,005 - context_logger - DEBUG - This is a debug message from test_func - test_func - 21 - user_id: pranoy123 - session_id: session_136e92980
+2025-05-17 13:52:57,005 - context_logger - INFO - This is an info message from test_func - test_func - 22 - user_id: pranoy123 - session_id: session_136e92980
+2025-05-17 13:52:57,005 - context_logger - WARNING - This is a warning message from test_func - test_func - 23 - user_id: pranoy123 - session_id: session_136e92980
+2025-05-17 13:52:57,007 - context_logger - ERROR - This is an error message from test_func - test_func - 24 - user_id: pranoy123 - session_id: session_136e92980
+2025-05-17 13:52:57,007 - context_logger - CRITICAL - This is a critical message from test_func - test_func - 25 - user_id: pranoy123 - session_id: session_136e92980
