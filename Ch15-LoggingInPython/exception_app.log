@@ -1,0 +1,28 @@
+2025-05-17 13:43:30,022 - exception_logger - ERROR - Exception occurred: division by zero
+Traceback (most recent call last):
+  File "C:\Users\pcslg\AppData\Local\Temp\ipykernel_33520\3415167826.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2025-05-17 13:43:30,022 - exception_logger - ERROR - Exception occurred: division by zero
+Traceback (most recent call last):
+  File "C:\Users\pcslg\AppData\Local\Temp\ipykernel_33520\3415167826.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2025-05-17 13:43:30,022 - exception_logger - ERROR - Exception occurred: division by zero
+Traceback (most recent call last):
+  File "C:\Users\pcslg\AppData\Local\Temp\ipykernel_33520\3415167826.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2025-05-17 13:43:30,022 - exception_logger - ERROR - Exception occurred: division by zero
+Traceback (most recent call last):
+  File "C:\Users\pcslg\AppData\Local\Temp\ipykernel_33520\3415167826.py", line 15, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2025-05-17 13:44:18,057 - exception_logger - ERROR - Exception occurred: division by zero
+2025-05-17 13:44:18,057 - exception_logger - ERROR - Exception occurred: division by zero
+2025-05-17 13:44:18,057 - exception_logger - ERROR - Exception occurred: division by zero
+2025-05-17 13:44:18,057 - exception_logger - ERROR - Exception occurred: division by zero

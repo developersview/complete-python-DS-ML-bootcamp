@@ -1,0 +1,8 @@
+2025-05-18 09:17:42,470 - __main__ - INFO - Main application started - main.py:48
+2025-05-18 09:17:42,470 - module_a - INFO - Module A function started - module_a.py:8
+2025-05-18 09:17:42,470 - module_a - DEBUG - This is a debug message from Module A - module_a.py:9
+2025-05-18 09:17:42,470 - module_a - INFO - Module A function finished - module_a.py:10
+2025-05-18 09:17:42,470 - module_b - INFO - Module B function started - module_b.py:8
+2025-05-18 09:17:42,470 - module_b - DEBUG - This is a debug message from Module B - module_b.py:9
+2025-05-18 09:17:42,470 - module_b - INFO - Module B function finished - module_b.py:10
+2025-05-18 09:17:42,470 - __main__ - INFO - Main application finished - main.py:51
