@@ -1,0 +1,5 @@
+2025-05-18 09:30:09,879 - __main__ - DEBUG - This is a debug message - advance_logging.py - <module> - 7
+2025-05-18 09:30:09,879 - __main__ - INFO - This is an info message - advance_logging.py - <module> - 8
+2025-05-18 09:30:09,881 - __main__ - WARNING - This is a warning message - advance_logging.py - <module> - 9
+2025-05-18 09:30:09,881 - __main__ - ERROR - This is an error message - advance_logging.py - <module> - 10
+2025-05-18 09:30:09,881 - __main__ - CRITICAL - This is a critical message - advance_logging.py - <module> - 11
