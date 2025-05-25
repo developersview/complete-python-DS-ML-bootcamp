@@ -13,7 +13,14 @@ def welcome():
 
 @app.route("/index")
 def index():
+    a = 10/0
     return "Welcome to the index page"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    try:
+        # Run the Flask application
+        app.run(debug=True)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        print("Please check your Flask installation and try again.")
+        print("If you are using a virtual environment, ensure it is activated.")
