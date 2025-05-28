@@ -20,13 +20,20 @@ def about():
     return render_template("about.html")
 
 @app.route("/form", methods=['GET', 'POST'])
-def route():
+def form():
     if request.method == 'POST':
         name = request.form['name']
         return f"Hello {name}, welcome to the Flask application!"
     else:
         return render_template("form.html")
 
+@app.route("/submit", methods=['GET', 'POST'])
+def submit():
+    if request.method == 'POST':
+        name = request.form['name']
+        return f"Hello {name}, welcome to the Flask application!"
+    else:
+        return render_template("form.html")
 
 if __name__ == '__main__':
     try:
