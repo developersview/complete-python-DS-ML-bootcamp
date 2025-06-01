@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>
+        You have scored: {{ score}} marks
+    </h3>
+    {% if score >= 50 %}
+    <p>Congratulations! You passed the exam.</p>
+    {% else %}
+    <p>Sorry, you did not pass the exam. Please try again.</p>
+    {% endif %}
+</body>
+
+</html>
