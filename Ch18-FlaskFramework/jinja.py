@@ -8,7 +8,7 @@
 {%...%} conditions, for loops
 {#...#} this is for comments
 '''
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 app = Flask(__name__)
 
 @app.route('/')
@@ -36,7 +36,7 @@ def submit():
 @app.route("/result1/<int:score>")
 def result1(score):
     res = ""
-    return render_template("result1.html", score=score, result=res)
+    return render_template("result1.html", score=score)
 
 @app.route("/result2/<int:score>")
 def result2(score):
@@ -57,6 +57,28 @@ def result2(score):
     exp={'score':score,"res":res}
 
     return render_template("result2.html", results=exp)
+
+@app.route('/result/<int:score>')
+def result(score):
+    return render_template('result.html',results=score)
+
+
+@app.route('/getresult', methods=['GET', 'POST'])
+def get_result():
+    total_score = 0
+    if request.method == 'POST':
+        science = float(request.form['science'])
+        math = float(request.form['maths'])
+        computer_science = float(request.form['cs'])
+        data_science = float(request.form['ds'])
+        total_score = (science + math + computer_science + data_science)
+        average_score = total_score / 4
+    else:
+        return render_template('getresult.html')
+    return redirect(url_for('result2', score=average_score))
+    
+
+
 
 if __name__ == '__main__':
     try:
