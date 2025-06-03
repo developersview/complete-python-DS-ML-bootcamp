@@ -78,8 +78,6 @@ def get_result():
     return redirect(url_for('result2', score=average_score))
     
 
-
-
 if __name__ == '__main__':
     try:
         # Run the Flask application
