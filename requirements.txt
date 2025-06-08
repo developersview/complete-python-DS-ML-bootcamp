@@ -8,3 +8,4 @@ bs4
 flask
 google-generativeai
 python-dotenv
+streamlit
